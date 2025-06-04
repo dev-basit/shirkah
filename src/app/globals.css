@@ -6,9 +6,9 @@
   --color-headings: #163754;
   --color-body: #535862;
   --color-body-darker: #181d27;
-  --white: #ffffff;
+  --color-white: #ffffff;
   --navbar-height: 10rem;
-  --border-radius: 16px;
+  --border-radius: 32px;
   --body-content-width: 128rem;
 }
 
