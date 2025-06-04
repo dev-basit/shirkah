@@ -73,6 +73,7 @@ h3 {
 @media screen and (max-width: 2160px) {
   :root {
     --body-content-width: 155rem;
+    --navbar-height: 12rem;
   }
 
   body {
@@ -83,6 +84,7 @@ h3 {
 @media screen and (max-width: 1440px) {
   :root {
     --body-content-width: 92%;
+    --navbar-height: 10rem;
   }
 
   body {
@@ -93,6 +95,7 @@ h3 {
 @media screen and (max-width: 768px) {
   :root {
     --body-content-width: 98vw;
+    --navbar-height: 10rem;
   }
 
   body {
