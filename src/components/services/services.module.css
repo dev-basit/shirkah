@@ -43,7 +43,7 @@
 .serviceCategoryName {
   color: var(--color-secondary);
   font-weight: 500;
-  font-size: 1.6rem;
+  /* font-size: 2rem; */
   line-height: 2.4rem;
   text-align: center;
 }
