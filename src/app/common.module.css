@@ -1,0 +1,12 @@
+.sectionName {
+  color: var(--color-primary);
+  font-weight: bold;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}
+
+.text {
+  color: var(--color-body);
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+}

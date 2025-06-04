@@ -1,0 +1,55 @@
+.servicesContainer {
+  width: var(--body-content-width);
+  margin: 8rem auto;
+
+  h1 {
+    color: var(--color-secondary);
+    font-size: 3rem;
+  }
+}
+
+.headings {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  line-height: 5;
+}
+
+.serviceTypesContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 5rem;
+  row-gap: 7rem;
+  margin: 7rem;
+}
+
+.serviceType {
+  flex-basis: 30%;
+}
+
+.serviceIcon {
+  width: 5rem;
+  height: 5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  margin: 2rem auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.serviceCategoryName {
+  color: var(--color-secondary);
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+}
+
+.serviceCategoryDescription {
+  margin-top: 1rem;
+  font-size: 1.7rem;
+  line-height: 1.3;
+}
