@@ -72,6 +72,20 @@ const MISSION = [
   { label: "Integrity and Safety First" },
 ];
 
-const Enums = { NAVBAR_ITEMS, FOOTER_OTHER_ITEMS, SERVICES, ABOUT_US_FIGURES, CLIENTS_REVIEWS, MISSION };
+const VISION = [
+  { label: "Industry Leadership" },
+  { label: "Sustainable Growth" },
+  { label: "Community & Business Impact" },
+];
+
+const Enums = {
+  NAVBAR_ITEMS,
+  FOOTER_OTHER_ITEMS,
+  SERVICES,
+  ABOUT_US_FIGURES,
+  CLIENTS_REVIEWS,
+  MISSION,
+  VISION,
+};
 
 export default Enums;

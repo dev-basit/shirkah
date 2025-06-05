@@ -5,26 +5,26 @@ import { ENUMS, ICONS } from "@/utils";
 
 export const Vision = () => {
   return (
-    <div style={{ position: "relative", marginTop: "26rem" }}>
+    <div style={{ position: "relative", marginTop: "26rem", marginBottom: "20rem" }}>
+      <div className={styles.rightContainer}>
+        <Image src={ICONS.CONTAINER4} alt="continer" />
+      </div>
       <div className={styles.visionContainer}>
-        <div className={styles.rightContainer}>
-          <Image src={ICONS.CONTAINER4} alt="continer" />
-        </div>
         <div className={styles.leftContainer}>
           <p className={commonStyles.sectionName}>OUR VISION</p>
           <br />
           <h1>
-            Focused on Service,<span> Driven by Purpose</span>
+            Shaping the Future of<span> Transport</span>
           </h1>
           <br />
           <p className={commonStyles.text}>
-            To deliver reliable, efficient, and innovative transport solutions that exceed customer
-            expectations, while upholding the highest standards of safety, professionalism, and integrity in
-            every journey we take.
+            To be a leading force in the transport and logistics industry, recognized for our excellence,
+            sustainability, and commitment to driving progress for communities and businesses across the
+            region and beyond.
           </p>
           <br />
           <br />
-          {ENUMS.MISSION.map((item, index) => (
+          {ENUMS.VISION.map((item, index) => (
             <div key={index} className={styles.visionItem}>
               <Image src={ICONS.TICK_ORANGE} alt="tick" />
               <p>{item.label}</p>
