@@ -1,4 +1,6 @@
 "use client";
+
+import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { ENUMS } from "@/utils";
 import styles from "./navbar.module.css";
@@ -10,9 +12,11 @@ export const NavbarItems = () => {
     <section>
       <ul>
         {ENUMS.NAVBAR_ITEMS.map(({ name, link }) => (
-          <li key={name} className={`${styles.navList} ${link === currentPath ? styles.navListActive : ""}`}>
-            {name}
-          </li>
+          <Link key={name} href={link}>
+            <li className={`${styles.navList} ${link === currentPath ? styles.navListActive : ""}`}>
+              {name}
+            </li>
+          </Link>
         ))}
       </ul>
     </section>
