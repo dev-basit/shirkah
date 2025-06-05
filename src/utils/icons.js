@@ -16,6 +16,7 @@ import STAR from "../../public/images/star.svg";
 import STORAGE from "../../public/images/storage.svg";
 import TICK_ORANGE from "../../public/images/tick-orange.svg";
 import TRUCK from "../../public/images/truck.svg";
+import MAP from "../../public/images/map.svg";
 
 const Icons = {
   CONTAINER,
@@ -36,6 +37,7 @@ const Icons = {
   STORAGE,
   TICK_ORANGE,
   TRUCK,
+  MAP,
 };
 
 export default Icons;
