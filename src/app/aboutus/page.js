@@ -1,10 +1,7 @@
-import { Featured } from "@/components/aboutus/featured/featured";
-import { Companies } from "@/components/aboutus/companies/companies";
-import { Services } from "@/components/aboutus/services/services";
 import { Mission } from "@/components/aboutus/mission/mission";
 import { AboutUsFeatured } from "@/components/aboutus/aboutus-featured/aboutus-featured";
-import { ContactUs } from "@/components/aboutus/contact-us/contact-us";
 import { Vision } from "@/components/aboutus/vision/vision";
+import { Clients } from "@/components/home/clients/clients";
 
 export default function About_Us() {
   return (
@@ -12,9 +9,7 @@ export default function About_Us() {
       <AboutUsFeatured />
       <Mission />
       <Vision />
-      {/* <Companies />
-      <Services />
-      <ContactUs /> */}
+      <Clients />
     </>
   );
 }
