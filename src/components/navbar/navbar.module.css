@@ -5,23 +5,25 @@
   height: var(--navbar-height);
   width: var(--body-content-width);
   margin: 0 auto;
+}
 
-  li {
-    display: inline;
-    color: var(--color-body);
-    margin-right: 4rem;
-    font-weight: 600;
-    font-size: 1.8rem;
-    cursor: pointer;
-  }
+.navList {
+  display: inline;
+  color: var(--color-body);
+  margin-right: 4rem;
+  font-weight: 600;
+  font-size: 1.8rem;
+  cursor: pointer;
 
   @media screen and (min-width: 1441px) {
-    li {
-      font-size: 2.2rem;
-    }
+    font-size: 2.2rem;
   }
+}
 
-  li:hover {
-    color: var(--color-primary);
-  }
+.navList:hover {
+  color: var(--color-primary);
+}
+
+.navListActive {
+  color: var(--color-primary);
 }

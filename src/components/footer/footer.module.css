@@ -44,7 +44,7 @@
   }
 }
 
-.footerNavItems {
+.footerNavList {
   margin-top: 5rem;
 
   li {
@@ -64,6 +64,29 @@
   li:hover {
     color: var(--color-primary);
   }
+}
+
+.footerNavListContainer {
+  margin-top: 4rem;
+}
+
+.footerNavList {
+  display: inline;
+  margin-right: 4rem;
+  font-size: 1.8rem;
+  cursor: pointer;
+
+  @media screen and (min-width: 1441px) {
+    font-size: 2.2rem;
+  }
+}
+
+.footerNavList:hover {
+  color: var(--color-primary);
+}
+
+.footerNavListActive {
+  color: var(--color-primary);
 }
 
 .footerOtherItems {

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import styles from "./footer.module.css";
 import { ENUMS, ICONS } from "@/utils";
+import { FooterNavbarItems } from "./footer-nav-items";
 
 export const Footer = () => {
   return (
@@ -18,13 +19,7 @@ export const Footer = () => {
           </div>
         </div>
 
-        <div className={styles.footerNavItems}>
-          <ul>
-            {ENUMS.NAVBAR_ITEMS.map(({ name }) => (
-              <li key={name}>{name}</li>
-            ))}
-          </ul>
-        </div>
+        <FooterNavbarItems />
 
         <hr />
 

@@ -1,12 +1,12 @@
 import Icons from "./icons";
 
 const NAVBAR_ITEMS = [
-  { name: "Home" },
-  { name: "Tracking" },
-  { name: "Services" },
-  { name: "About us" },
-  { name: "Contact us" },
-  { name: "EN" },
+  { name: "Home", link: "/" },
+  { name: "Tracking", link: "/tracking" },
+  { name: "Services", link: "/services" },
+  { name: "About us", link: "/aboutus" },
+  { name: "Contact us", link: "/contactus" },
+  { name: "EN", link: "/en" },
 ];
 
 const FOOTER_OTHER_ITEMS = [{ name: "Terms & Conditions" }, { name: "Privacy" }, { name: "Cookies" }];
