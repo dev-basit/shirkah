@@ -6,10 +6,14 @@
   --color-secondary-darker: #09253e;
   --color-body: #535862;
   --color-body-darker: #181d27;
+  --color-gray: #717680;
   --color-white: #ffffff;
   --border-color: #e9eaeb;
+  --border-color-dark: #d5d7da;
   --navbar-height: 10rem;
   --border-radius: 16px;
+  --border-radius-sm: 10px;
+  --border-radius-xl: 32px;
   --body-content-width: 128rem;
 }
 
@@ -81,9 +85,17 @@ hr {
   margin: 5rem 0;
 }
 
-input {
+input,
+textarea {
   outline: none;
   border: none;
+}
+
+input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+  border-color: var(--border-color);
+  border-radius: var(--border-radius-sm);
 }
 
 button {
