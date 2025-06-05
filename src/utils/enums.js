@@ -9,6 +9,8 @@ const NAVBAR_ITEMS = [
   { name: "EN" },
 ];
 
+const FOOTER_OTHER_ITEMS = [{ name: "Terms & Conditions" }, { name: "Privacy" }, { name: "Cookies" }];
+
 const SERVICES = [
   { name: "Transport", icon: Icons.TRUCK },
   { name: "Manpower", icon: Icons.ELECTRICITY },
@@ -64,6 +66,6 @@ const CLIENTS_REVIEWS = [
   },
 ];
 
-const Enums = { NAVBAR_ITEMS, SERVICES, ABOUT_US_FIGURES, CLIENTS_REVIEWS };
+const Enums = { NAVBAR_ITEMS, FOOTER_OTHER_ITEMS, SERVICES, ABOUT_US_FIGURES, CLIENTS_REVIEWS };
 
 export default Enums;

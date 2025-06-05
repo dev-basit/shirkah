@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Rubik } from "next/font/google";
 import { Navbar } from "@/components/navbar/navbar";
+import { Footer } from "@/components/footer/footer";
 
 const rubik = Rubik({
   variable: "--rubik",
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
       <body className={rubik.variable}>
         <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );

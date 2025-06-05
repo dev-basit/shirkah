@@ -4,6 +4,7 @@ import ELECTRICITY from "../../public/images/electricity.svg";
 import FEATURED from "../../public/images/featured.svg";
 import FEATURED_BG from "../../public/images/featured-bg.svg";
 import LOGO from "../../public/images/logo.svg";
+import LOGO_WHITE from "../../public/images/logo-white.svg";
 import OUTLINE from "../../public/images/outline.svg";
 import PACKING_BOX from "../../public/images/packing-box.svg";
 import STAR from "../../public/images/star.svg";
@@ -18,6 +19,7 @@ const Icons = {
   FEATURED_BG,
   FEATURED,
   LOGO,
+  LOGO_WHITE,
   OUTLINE,
   PACKING_BOX,
   STAR,

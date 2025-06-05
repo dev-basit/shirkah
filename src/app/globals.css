@@ -28,7 +28,7 @@ html {
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: var(--color-secondary);
+    background-color: var(--color-secondary-darker);
     border-radius: 8px;
   }
 }
@@ -75,6 +75,19 @@ pre {
 
 span {
   color: var(--color-primary);
+}
+
+hr {
+  margin: 5rem 0;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+button {
+  cursor: pointer;
 }
 
 h1,
