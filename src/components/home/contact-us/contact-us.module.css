@@ -2,11 +2,10 @@
   display: flex;
   width: var(--body-content-width);
   margin: 15rem auto;
-
-  h1 {
-    color: var(--color-secondary);
-    font-size: 3rem;
-  }
+}
+.contactUsContainer h1 {
+  color: var(--color-secondary);
+  font-size: 3rem;
 }
 
 .leftContainer {
@@ -20,15 +19,15 @@
   flex-direction: column;
   flex-basis: 50%;
   padding: 0 10rem;
+}
 
-  button {
-    padding: 1rem 0;
-    margin-top: 3rem;
-    font-weight: 500;
-    color: var(--color-white);
-    background-color: var(--color-secondary);
-    border-radius: var(--border-radius-xl);
-  }
+.rightContainer button {
+  padding: 1rem 0;
+  margin-top: 3rem;
+  font-weight: 500;
+  color: var(--color-white);
+  background-color: var(--color-secondary);
+  border-radius: var(--border-radius-xl);
 }
 
 .contactUsFormItem {

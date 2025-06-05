@@ -1,10 +1,10 @@
 .clientsContainer {
   background-color: var(--color-secondary);
   color: var(--color-white);
+}
 
-  h1 {
-    font-size: 3rem;
-  }
+.clientsContainer h1 {
+  font-size: 3rem;
 }
 
 .clientsContentContainer {

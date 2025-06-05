@@ -5,10 +5,9 @@
   padding-bottom: 2rem;
   line-height: 1.5;
   border-bottom: 1px solid var(--border-color);
-
-  p {
-    font-size: 1.7rem;
-  }
+}
+.questionContainer p {
+  font-size: 1.7rem;
 }
 
 .questionHeader {
@@ -17,11 +16,10 @@
   align-items: center;
   cursor: pointer;
   height: 4rem;
-
-  h1 {
-    font-size: 2rem;
-    font-weight: 500;
-  }
+}
+.questionHeader h1 {
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .questionText {

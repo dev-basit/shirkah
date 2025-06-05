@@ -3,11 +3,10 @@
   width: var(--body-content-width);
   margin: 15rem auto;
   position: relative;
-
-  h1 {
-    color: var(--color-secondary);
-    font-size: 3rem;
-  }
+}
+.aboutUsContainer h1 {
+  color: var(--color-secondary);
+  font-size: 3rem;
 }
 
 .aboutUsNestedContainer {
@@ -26,19 +25,17 @@
   align-items: center;
   gap: 1rem;
   margin-bottom: 1rem;
-
-  p {
-    margin-left: 1rem;
-  }
+}
+.aboutUsItem p {
+  margin-left: 1rem;
 }
 
 .centerContainer {
   flex-basis: 20%;
   padding-left: 3rem;
-
-  h1 {
-    font-size: 5rem;
-  }
+}
+.centerContainer h1 {
+  font-size: 5rem;
 }
 
 .aboutUsFigureItem {
@@ -52,8 +49,8 @@
   top: 10;
   display: flex;
   justify-content: flex-end;
+}
 
-  img {
-    width: 90%;
-  }
+.rightContainer img {
+  width: 90%;
 }

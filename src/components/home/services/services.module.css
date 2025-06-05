@@ -1,11 +1,11 @@
 .servicesContainer {
   width: var(--body-content-width);
   margin: 8rem auto;
+}
 
-  h1 {
-    color: var(--color-secondary);
-    font-size: 3rem;
-  }
+.servicesContainer h1 {
+  color: var(--color-secondary);
+  font-size: 3rem;
 }
 
 .headings {

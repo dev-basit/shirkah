@@ -4,11 +4,10 @@
   width: var(--body-content-width);
   margin: 15rem auto;
   position: relative;
-
-  h1 {
-    color: var(--color-secondary);
-    font-size: 3rem;
-  }
+}
+.visionContainer h1 {
+  color: var(--color-secondary);
+  font-size: 3rem;
 }
 
 .leftContainer {
@@ -24,10 +23,9 @@
   gap: 1rem;
   margin-bottom: 1rem;
   padding-left: 1.3rem;
-
-  p {
-    margin-left: 1rem;
-  }
+}
+.visionItem p {
+  margin-left: 1rem;
 }
 
 .rightContainer {
@@ -37,8 +35,8 @@
   top: -70;
   display: flex;
   justify-content: flex-end;
+}
 
-  img {
-    width: 100%;
-  }
+.rightContainer img {
+  width: 100%;
 }
