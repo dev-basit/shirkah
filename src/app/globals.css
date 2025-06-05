@@ -3,13 +3,13 @@
 :root {
   --color-primary: #f15c28;
   --color-secondary: #163754;
-  --color-headings: #163754;
+  --color-secondary-darker: #09253e;
   --color-body: #535862;
   --color-body-darker: #181d27;
   --color-white: #ffffff;
   --border-color: #e9eaeb;
   --navbar-height: 10rem;
-  --border-radius: 32px;
+  --border-radius: 16px;
   --body-content-width: 128rem;
 }
 

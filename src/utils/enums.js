@@ -31,6 +31,39 @@ const ABOUT_US_FIGURES = [
   { label: "Happy Clients", value: <h1>5467+</h1> },
 ];
 
-const Enums = { NAVBAR_ITEMS, SERVICES, ABOUT_US_FIGURES };
+const CLIENTS_REVIEWS = [
+  {
+    name: "Sienna Hewitt",
+    description:
+      "I've been using this transport service for over a year, and they've never let me down. Whether it's a local delivery or long-",
+  },
+  {
+    name: "Kari Rasmussen",
+    description:
+      "The team is courteous, professional, and truly cares about customer satisfaction. I always feel safe and well taken care of.",
+  },
+  {
+    name: "Amélie Laurent",
+    description:
+      "The team is courteous, professional, and truly cares about customer satisfaction. I always feel safe and well taken care of.",
+  },
+  {
+    name: "Aliah Lane",
+    description:
+      "The team is courteous, professional, and truly cares about customer satisfaction. I always feel safe and well taken care of.",
+  },
+  {
+    name: "Eduard Franz",
+    description:
+      "The team is courteous, professional, and truly cares about customer satisfaction. I always feel safe and well taken care of.",
+  },
+  {
+    name: "Lily-Rose Chedjou",
+    description:
+      "The team is courteous, professional, and truly cares about customer satisfaction. I always feel safe and well taken care of.",
+  },
+];
+
+const Enums = { NAVBAR_ITEMS, SERVICES, ABOUT_US_FIGURES, CLIENTS_REVIEWS };
 
 export default Enums;

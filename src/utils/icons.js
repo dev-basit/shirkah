@@ -6,6 +6,7 @@ import FEATURED_BG from "../../public/images/featured-bg.svg";
 import LOGO from "../../public/images/logo.svg";
 import OUTLINE from "../../public/images/outline.svg";
 import PACKING_BOX from "../../public/images/packing-box.svg";
+import STAR from "../../public/images/star.svg";
 import STORAGE from "../../public/images/storage.svg";
 import TICK_ORANGE from "../../public/images/tick-orange.svg";
 import TRUCK from "../../public/images/truck.svg";
@@ -19,6 +20,7 @@ const Icons = {
   LOGO,
   OUTLINE,
   PACKING_BOX,
+  STAR,
   STORAGE,
   TICK_ORANGE,
   TRUCK,

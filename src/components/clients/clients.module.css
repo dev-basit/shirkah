@@ -1,0 +1,59 @@
+.clientsContainer {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.clientsContentContainer {
+  width: var(--body-content-width);
+  padding: 8rem 0;
+  margin: 8rem auto;
+}
+
+.headings {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 5;
+}
+
+.clientContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 5rem;
+  row-gap: 7rem;
+  margin: 7rem;
+}
+
+.clientItem {
+  flex-basis: 30%;
+  padding: 3rem;
+  background-color: var(--color-secondary-darker);
+  border-radius: var(--border-radius);
+}
+
+.clientIconsContainer {
+  display: flex;
+}
+
+.clientIcon {
+  margin-right: 5px;
+}
+
+.clientName {
+  margin-top: 3rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+.clientDescription {
+  margin-top: 2rem;
+  font-size: 1.7rem;
+  line-height: 1.3;
+}
