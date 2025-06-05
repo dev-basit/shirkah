@@ -1,19 +1,20 @@
-import { Featured } from "@/components/home/featured/featured";
-import { Companies } from "@/components/home/companies/companies";
-import { Services } from "@/components/home/services/services";
-import { AboutUs } from "@/components/home/about-us/about-us";
-import { Clients } from "@/components/home/clients/clients";
-import { ContactUs } from "@/components/home/contact-us/contact-us";
+import { Featured } from "@/components/aboutus/featured/featured";
+import { Companies } from "@/components/aboutus/companies/companies";
+import { Services } from "@/components/aboutus/services/services";
+import { Mission } from "@/components/aboutus/mission/mission";
+import { AboutUsFeatured } from "@/components/aboutus/aboutus-featured/aboutus-featured";
+import { ContactUs } from "@/components/aboutus/contact-us/contact-us";
+import { Vision } from "@/components/aboutus/vision/vision";
 
 export default function About_Us() {
   return (
     <>
-      <Featured />
-      <Companies />
+      <AboutUsFeatured />
+      <Mission />
+      <Vision />
+      {/* <Companies />
       <Services />
-      <AboutUs />
-      <Clients />
-      <ContactUs />
+      <ContactUs /> */}
     </>
   );
 }

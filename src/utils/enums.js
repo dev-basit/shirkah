@@ -66,6 +66,12 @@ const CLIENTS_REVIEWS = [
   },
 ];
 
-const Enums = { NAVBAR_ITEMS, FOOTER_OTHER_ITEMS, SERVICES, ABOUT_US_FIGURES, CLIENTS_REVIEWS };
+const MISSION = [
+  { label: "Reliable and Efficient Service" },
+  { label: "Innovation and Excellence" },
+  { label: "Integrity and Safety First" },
+];
+
+const Enums = { NAVBAR_ITEMS, FOOTER_OTHER_ITEMS, SERVICES, ABOUT_US_FIGURES, CLIENTS_REVIEWS, MISSION };
 
 export default Enums;

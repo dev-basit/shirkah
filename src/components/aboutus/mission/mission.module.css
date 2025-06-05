@@ -1,0 +1,43 @@
+.missionContainer {
+  display: flex;
+  width: var(--body-content-width);
+  margin: 15rem auto;
+  position: relative;
+
+  h1 {
+    color: var(--color-secondary);
+    font-size: 3rem;
+  }
+}
+
+.leftContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-basis: 40%;
+}
+
+.missionItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  padding-left: 1.3rem;
+
+  p {
+    margin-left: 1rem;
+  }
+}
+
+.rightContainer {
+  flex-basis: 60%;
+  position: absolute;
+  right: 0;
+  top: -80;
+  display: flex;
+  justify-content: flex-end;
+
+  img {
+    width: 100%;
+  }
+}

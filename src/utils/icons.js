@@ -1,5 +1,7 @@
 import CONTAINER from "../../public/images/container.svg";
 import CONTAINER2 from "../../public/images/container-2.svg";
+import CONTAINER3 from "../../public/images/container-3.svg";
+import CONTAINER4 from "../../public/images/container-4.svg";
 import CONTRACT from "../../public/images/contract.svg";
 import ELECTRICITY from "../../public/images/electricity.svg";
 import FEATURED from "../../public/images/featured.svg";
@@ -16,6 +18,8 @@ import TRUCK from "../../public/images/truck.svg";
 const Icons = {
   CONTAINER,
   CONTAINER2,
+  CONTAINER3,
+  CONTAINER4,
   CONTRACT,
   ELECTRICITY,
   FEATURED_BG,
