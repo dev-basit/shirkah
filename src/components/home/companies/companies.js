@@ -1,6 +1,4 @@
-import Image from "next/image";
 import styles from "./companies.module.css";
-import { ENUMS, ICONS } from "@/utils";
 
 export const Companies = () => {
   return (

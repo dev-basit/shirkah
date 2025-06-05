@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./clients.module.css";
-import commonStyles from "../../app/common.module.css";
+import commonStyles from "../../../app/common.module.css";
 import { ENUMS, ICONS } from "@/utils";
 
 export const Clients = () => {

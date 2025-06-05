@@ -1,6 +1,6 @@
 import Image from "next/image";
 import styles from "./services.module.css";
-import commonStyles from "../../app/common.module.css";
+import commonStyles from "../../../app/common.module.css";
 import { ENUMS } from "@/utils";
 
 export const Services = () => {

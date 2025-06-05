@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./contact-us.module.css";
-import commonStyles from "../../app/common.module.css";
-import { ENUMS, ICONS } from "@/utils";
+import commonStyles from "../../../app/common.module.css";
+import { ICONS } from "@/utils";
 
 export const ContactUs = () => {
   return (
