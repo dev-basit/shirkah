@@ -1,13 +1,17 @@
 .aboutUsContainer {
   display: flex;
-
   width: var(--body-content-width);
   margin: 15rem auto;
+  position: relative;
 
   h1 {
     color: var(--color-secondary);
     font-size: 3rem;
   }
+}
+
+.aboutUsNestedContainer {
+  overflow: hidden;
 }
 
 .leftContainer {
@@ -17,55 +21,39 @@
   flex-basis: 40%;
 }
 
+.aboutUsItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+  p {
+    margin-left: 1rem;
+  }
+}
+
 .centerContainer {
   flex-basis: 20%;
+  padding-left: 3rem;
+
+  h1 {
+    font-size: 5rem;
+  }
+}
+
+.aboutUsFigureItem {
+  margin-bottom: 4rem;
 }
 
 .rightContainer {
-  flex-basis: 40%;
-}
-
-.aboutUsTypesContainer {
+  /* flex-basis: 40%; */
+  position: absolute;
+  right: 0;
+  top: 10;
   display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  column-gap: 5rem;
-  row-gap: 7rem;
-  margin: 7rem;
-}
+  justify-content: flex-end;
 
-.aboutUsType {
-  flex-basis: 30%;
-}
-
-.aboutUsIcon {
-  width: 5rem;
-  height: 5rem;
-  border: 1px solid var(--border-color);
-  border-radius: 10px;
-  margin: 2rem auto;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.aboutUsCategoryName {
-  color: var(--color-secondary);
-  font-weight: 500;
-  /* font-size: 2rem; */
-  line-height: 2.4rem;
-  text-align: center;
-}
-
-.aboutUsCategoryDescription {
-  margin-top: 1rem;
-  font-size: 1.7rem;
-  line-height: 1.3;
-}
-
-.aboutUsItem {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  img {
+    width: 90%;
+  }
 }

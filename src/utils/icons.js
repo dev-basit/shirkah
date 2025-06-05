@@ -1,3 +1,4 @@
+import CONTAINER from "../../public/images/container.svg";
 import CONTRACT from "../../public/images/contract.svg";
 import ELECTRICITY from "../../public/images/electricity.svg";
 import FEATURED from "../../public/images/featured.svg";
@@ -10,6 +11,7 @@ import TICK_ORANGE from "../../public/images/tick-orange.svg";
 import TRUCK from "../../public/images/truck.svg";
 
 const Icons = {
+  CONTAINER,
   CONTRACT,
   ELECTRICITY,
   FEATURED_BG,
