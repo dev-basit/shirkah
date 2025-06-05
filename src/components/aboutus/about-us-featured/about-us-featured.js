@@ -1,5 +1,5 @@
 import styles from "../../home/clients/clients.module.css";
-import clientsStyles from "./aboutus-featured.module.css";
+import clientsStyles from "./about-us-featured.module.css";
 import commonStyles from "../../../app/common.module.css";
 
 export const AboutUsFeatured = () => {

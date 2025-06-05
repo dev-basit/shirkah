@@ -1,5 +1,5 @@
 import { Mission } from "@/components/aboutus/mission/mission";
-import { AboutUsFeatured } from "@/components/aboutus/aboutus-featured/aboutus-featured";
+import { AboutUsFeatured } from "@/components/aboutus/about-us-featured/about-us-featured";
 import { Vision } from "@/components/aboutus/vision/vision";
 import { Clients } from "@/components/home/clients/clients";
 
