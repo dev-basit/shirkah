@@ -3,6 +3,8 @@ import CONTAINER2 from "../../public/images/container-2.svg";
 import CONTAINER3 from "../../public/images/container-3.svg";
 import CONTAINER4 from "../../public/images/container-4.svg";
 import CONTRACT from "../../public/images/contract.svg";
+import CIRCLE_MINUS from "../../public/images/minus-circle.svg";
+import CIRCLE_PLUS from "../../public/images/plus-circle.svg";
 import ELECTRICITY from "../../public/images/electricity.svg";
 import FEATURED from "../../public/images/featured.svg";
 import FEATURED_BG from "../../public/images/featured-bg.svg";
@@ -21,6 +23,8 @@ const Icons = {
   CONTAINER3,
   CONTAINER4,
   CONTRACT,
+  CIRCLE_MINUS,
+  CIRCLE_PLUS,
   ELECTRICITY,
   FEATURED_BG,
   FEATURED,
