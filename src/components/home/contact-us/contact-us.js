@@ -19,7 +19,7 @@ export const ContactUs = () => {
         <p className={commonStyles.text}>Our friendly team would love to hear from you. </p>
         <br />
         <div className={commonStyles.flexColumn}>
-          <div className={commonStyles.flex}>
+          <div className={styles.formDualItems}>
             <div className={styles.contactUsFormItem}>
               <p className={commonStyles.formItemLabel}>First Name</p>
               <input className={commonStyles.formInput} placeholder="Enter First Name" />

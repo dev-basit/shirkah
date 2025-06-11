@@ -5,7 +5,13 @@
   padding-bottom: 2rem;
   line-height: 1.5;
   border-bottom: 1px solid var(--border-color);
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+    margin: 1.5rem 0;
+  }
 }
+
 .questionContainer p {
   font-size: 1.7rem;
 }
@@ -17,6 +23,7 @@
   cursor: pointer;
   height: 4rem;
 }
+
 .questionHeader h1 {
   font-size: 2rem;
   font-weight: 500;

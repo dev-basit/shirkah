@@ -21,4 +21,8 @@
 
 .map {
   width: 100%;
+
+  @media screen and (max-width: 576px) {
+    height: 20rem;
+  }
 }

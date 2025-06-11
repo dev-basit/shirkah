@@ -22,6 +22,12 @@
   column-gap: 5rem;
   row-gap: 7rem;
   margin: 7rem;
+
+  @media screen and (max-width: 768px) {
+    column-gap: 1rem;
+    row-gap: 4rem;
+    margin: 1rem;
+  }
 }
 
 .serviceType {
@@ -29,6 +35,10 @@
 
   @media screen and (max-width: 1280px) {
     flex-basis: 35%;
+  }
+
+  @media screen and (max-width: 768px) {
+    flex-basis: 100%;
   }
 }
 

@@ -4,6 +4,7 @@
   width: var(--body-content-width);
   margin: 5rem auto;
 }
+
 .clientsContainer h1 {
   font-size: 3rem;
   color: var(--color-secondary);
@@ -15,6 +16,12 @@
   align-items: center;
   flex-direction: column;
   line-height: 2;
+
+  @media screen and (max-width: 576px) {
+    text-align: center;
+    margin: 1rem 0;
+    height: 10rem;
+  }
 }
 
 .stillQuestion {
