@@ -7,7 +7,7 @@ export const Featured = () => {
     <main className={styles.featuredContainer}>
       <div className={styles.featuredContentContainer}>
         <div className={styles.featuredLeft}>
-          <p>We Specialize in the transportation</p>
+          <p className={styles.bar}>We Specialize in the transportation</p>
           <h1>Explore The Best Logistic & Transport</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur. Congue nunc molestie accumsan ipsum odio eu eget cras.
