@@ -37,7 +37,7 @@
     flex-basis: 35%;
   }
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 576px) {
     flex-basis: 100%;
   }
 }
