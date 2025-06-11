@@ -5,8 +5,10 @@ import { NavbarLogo } from "./navbar-logo";
 export const Navbar = () => {
   return (
     <navbar className={styles.navbarContainer}>
-      <NavbarLogo />
-      <NavbarItems />
+      <section className={styles.navbarContent}>
+        <NavbarLogo />
+        <NavbarItems />
+      </section>
     </navbar>
   );
 };

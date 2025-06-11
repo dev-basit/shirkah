@@ -3,11 +3,11 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: calc(100vh - var(--navbar-height));
+  height: 100vh;
   color: var(--color-white);
 
   @media screen and (min-width: 1441px) {
-    height: calc(90vh - var(--navbar-height));
+    height: 90vh;
   }
 }
 
