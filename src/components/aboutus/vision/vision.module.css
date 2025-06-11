@@ -4,6 +4,11 @@
   width: var(--body-content-width);
   margin: 15rem auto;
   position: relative;
+
+  @media screen and (max-width: 1280px) {
+    flex-direction: row-reverse;
+    margin: 10rem auto;
+  }
 }
 .visionContainer h1 {
   color: var(--color-secondary);
@@ -15,6 +20,11 @@
   justify-content: center;
   flex-direction: column;
   flex-basis: 40%;
+
+  @media screen and (max-width: 1280px) {
+    flex-basis: 100%;
+    margin: 0 20rem;
+  }
 }
 
 .visionItem {
@@ -35,8 +45,17 @@
   top: -70px;
   display: flex;
   justify-content: flex-end;
+
+  @media screen and (max-width: 1280px) {
+    position: relative;
+    top: 0px;
+  }
 }
 
 .rightContainer img {
   width: 100%;
+
+  @media screen and (max-width: 1280px) {
+    height: 60rem;
+  }
 }
