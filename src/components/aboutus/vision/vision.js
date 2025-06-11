@@ -6,10 +6,10 @@ import { ENUMS, ICONS } from "@/utils";
 export const Vision = () => {
   return (
     <div style={{ position: "relative", marginTop: "26rem", marginBottom: "20rem" }} data-aos="zoom-in">
-      <div className={styles.rightContainer}>
-        <Image src={ICONS.CONTAINER4} alt="continer" />
-      </div>
       <div className={styles.visionContainer}>
+        <div className={styles.rightContainer}>
+          <Image src={ICONS.CONTAINER4} alt="continer" />
+        </div>
         <div className={styles.leftContainer}>
           <p className={commonStyles.sectionName}>OUR VISION</p>
           <br />

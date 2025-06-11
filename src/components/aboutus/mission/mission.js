@@ -28,9 +28,9 @@ export const Mission = () => {
             </div>
           ))}
         </div>
-      </div>
-      <div className={styles.rightContainer}>
-        <Image src={ICONS.CONTAINER3} alt="continer" />
+        <div className={styles.rightContainer}>
+          <Image src={ICONS.CONTAINER3} alt="continer" />
+        </div>
       </div>
     </div>
   );
