@@ -22,6 +22,10 @@
   justify-content: center;
   flex-direction: column;
   flex-basis: 40%;
+
+  @media screen and (max-width: 1280px) {
+    flex-basis: 60%;
+  }
 }
 
 .aboutUsItem {

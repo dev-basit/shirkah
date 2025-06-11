@@ -166,7 +166,7 @@ h3 {
 
 @media screen and (max-width: 768px) {
   :root {
-    --body-content-width: 98vw;
+    --body-content-width: 92vw;
     --navbar-height: 10rem;
   }
 

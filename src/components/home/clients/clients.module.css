@@ -35,6 +35,10 @@
   padding: 3rem;
   background-color: var(--color-secondary-darker);
   border-radius: var(--border-radius);
+
+  @media screen and (max-width: 1280px) {
+    flex-basis: 45%;
+  }
 }
 
 .clientIconsContainer {

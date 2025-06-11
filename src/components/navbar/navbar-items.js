@@ -10,7 +10,7 @@ export const NavbarItems = () => {
 
   return (
     <section>
-      <ul>
+      <ul className={styles.navbarItems}>
         {ENUMS.NAVBAR_ITEMS.map(({ name, link }) => (
           <Link key={name} href={link}>
             <li className={`${styles.navList} ${link === currentPath ? styles.navListActive : ""}`}>

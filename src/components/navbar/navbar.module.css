@@ -19,6 +19,12 @@
   margin: 0 auto;
 }
 
+.navbarItems {
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}
+
 .navList {
   display: inline;
   color: var(--color-body);
