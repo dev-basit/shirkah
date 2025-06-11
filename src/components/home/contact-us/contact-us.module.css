@@ -2,6 +2,10 @@
   display: flex;
   width: var(--body-content-width);
   margin: 15rem auto;
+
+  @media screen and (max-width: 1280px) {
+    flex-direction: column;
+  }
 }
 .contactUsContainer h1 {
   color: var(--color-secondary);
@@ -12,6 +16,11 @@
   flex-basis: 50%;
   display: flex;
   justify-content: flex-end;
+
+  @media screen and (max-width: 1280px) {
+    justify-content: center;
+    margin-bottom: 10rem;
+  }
 }
 
 .rightContainer {

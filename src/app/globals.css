@@ -153,6 +153,17 @@ h3 {
   }
 }
 
+@media screen and (max-width: 1280px) {
+  :root {
+    --body-content-width: 90vw;
+    --navbar-height: 10rem;
+  }
+
+  html {
+    font-size: 8px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   :root {
     --body-content-width: 98vw;
@@ -160,6 +171,6 @@ h3 {
   }
 
   html {
-    font-size: 60%;
+    font-size: 8px;
   }
 }
