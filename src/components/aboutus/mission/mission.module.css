@@ -33,7 +33,7 @@
   flex-basis: 60%;
   position: absolute;
   right: 0;
-  top: -80;
+  top: -80px;
   display: flex;
   justify-content: flex-end;
 }

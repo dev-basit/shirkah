@@ -46,7 +46,7 @@
   /* flex-basis: 40%; */
   position: absolute;
   right: 0;
-  top: 10;
+  top: 10px;
   display: flex;
   justify-content: flex-end;
 }
