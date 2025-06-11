@@ -1,3 +1,7 @@
+.navbarHeight {
+  height: var(--navbar-height);
+}
+
 .sectionName {
   color: var(--color-primary);
   font-weight: bold;
