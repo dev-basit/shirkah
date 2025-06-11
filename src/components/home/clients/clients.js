@@ -5,7 +5,7 @@ import { ENUMS, ICONS } from "@/utils";
 
 export const Clients = () => {
   return (
-    <div className={styles.clientsContainer}>
+    <div className={styles.clientsContainer} data-aos="zoom-in-up">
       <div className={styles.clientsContentContainer}>
         <div className={styles.headings}>
           <p className={commonStyles.sectionName}>TESTIMONIAL</p>

@@ -6,7 +6,7 @@ import { ENUMS, ICONS } from "@/utils";
 export const Mission = () => {
   return (
     <div style={{ position: "relative" }}>
-      <div className={styles.missionContainer}>
+      <div className={styles.missionContainer} data-aos="fade-in">
         <div className={styles.leftContainer}>
           <p className={commonStyles.sectionName}>OUR MISSION</p>
           <br />

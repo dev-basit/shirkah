@@ -2,7 +2,7 @@ import styles from "./companies.module.css";
 
 export const Companies = () => {
   return (
-    <div className={styles.companiesContainer}>
+    <div className={styles.companiesContainer} data-aos="zoom-in-up">
       <h2>
         <pre>Trusted by more</pre>
         <pre>

@@ -10,7 +10,7 @@ export const ContactUs = () => {
         <Image src={ICONS.CONTAINER2} alt="continer" />
       </div>
 
-      <div className={styles.rightContainer}>
+      <div className={styles.rightContainer} data-aos="fade-up">
         <p className={commonStyles.sectionName}>CONTACT US</p>
         <h1>
           Let&apos;s <span>hear</span> from you

@@ -5,7 +5,7 @@ import { ENUMS } from "@/utils";
 
 export const Services = () => {
   return (
-    <div className={styles.servicesContainer}>
+    <div className={styles.servicesContainer} data-aos="zoom-in">
       <div className={styles.headings}>
         <p className={commonStyles.sectionName}>SERVICES</p>
         <h1>

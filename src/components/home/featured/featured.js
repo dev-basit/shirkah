@@ -4,7 +4,7 @@ import { ICONS } from "@/utils";
 
 export const Featured = () => {
   return (
-    <main className={styles.featuredContainer}>
+    <main className={styles.featuredContainer} data-aos="fade-up">
       <div className={styles.featuredContentContainer}>
         <div className={styles.featuredLeft}>
           <p className={styles.bar}>We Specialize in the transportation</p>

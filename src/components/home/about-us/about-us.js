@@ -6,7 +6,7 @@ import { ENUMS, ICONS } from "@/utils";
 export const AboutUs = () => {
   return (
     <div style={{ position: "relative" }}>
-      <div className={styles.aboutUsContainer}>
+      <div className={styles.aboutUsContainer} data-aos="fade-in">
         <div className={styles.leftContainer}>
           <p className={commonStyles.sectionName}>ABOUT US</p>
           <h1>

@@ -5,7 +5,7 @@ import { ICONS } from "@/utils";
 
 export const ContactUsFeatured = () => {
   return (
-    <div className={styles.contactUsContainer}>
+    <div className={styles.contactUsContainer} data-aos="fade-in">
       <div className={styles.headings}>
         <p className={commonStyles.sectionName}>CONTACT US</p>
         <h2>We&apos;d love to hear from you</h2>

@@ -5,7 +5,7 @@ import { FooterNavbarItems } from "./footer-nav-items";
 
 export const Footer = () => {
   return (
-    <footer className={styles.footerContainer}>
+    <footer className={styles.footerContainer} data-aos="zoom-in">
       <div className={styles.footerContentContainer}>
         <div className={styles.footerLogoContainer}>
           <Image src={ICONS.LOGO_WHITE} width={150} height={100} alt="logo" />

@@ -4,7 +4,7 @@ import commonStyles from "../../../app/common.module.css";
 
 export const AboutUsFeatured = () => {
   return (
-    <div className={styles.clientsContainer}>
+    <div className={styles.clientsContainer} data-aos="zoom-up">
       <div className={clientsStyles.clientsContentContainer}>
         <div className={styles.headings}>
           <p className={commonStyles.sectionName}>TESTIMONIAL</p>
