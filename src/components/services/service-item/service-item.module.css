@@ -3,13 +3,22 @@
   width: var(--body-content-width);
   margin: 9rem auto;
   position: relative;
+  padding-bottom: 7rem;
+  border-bottom: 2px solid var(--border-color-dark);
 
   @media screen and (max-width: 1280px) {
     margin: 0rem auto;
+    padding-bottom: 0rem;
   }
 
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    padding-bottom: 5rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding-top: 5rem;
+    padding-bottom: 0rem;
   }
 }
 
