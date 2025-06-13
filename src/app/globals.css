@@ -7,6 +7,7 @@
   --color-body: #535862;
   --color-body-darker: #181d27;
   --color-gray: #717680;
+  --color-gray-light: #a8a8a8;
   --color-white: #ffffff;
   --border-color: #e9eaeb;
   --border-color-dark: #d5d7da;
@@ -96,6 +97,11 @@ input[type="checkbox"] {
   height: 17px;
   border-color: var(--border-color);
   border-radius: var(--border-radius-sm);
+}
+
+input::placeholder {
+  font-size: 1.5rem;
+  color: var(--color-gray-light);
 }
 
 button {
