@@ -1,0 +1,6 @@
+.sliders {
+  width: var(--body-content-width);
+  margin: 10rem auto;
+  /* border: 1px solid red; */
+  /* filter: saturate(0); */
+}

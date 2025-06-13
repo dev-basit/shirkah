@@ -9,6 +9,8 @@ const NAVBAR_ITEMS = [
   { name: "EN", link: "/en" },
 ];
 
+const COMPANIES = [Icons.LOGO, Icons.LOGO, Icons.LOGO, Icons.LOGO, Icons.LOGO, Icons.LOGO];
+
 const FOOTER_OTHER_ITEMS = [{ name: "Terms & Conditions" }, { name: "Privacy" }, { name: "Cookies" }];
 
 const SERVICES = [
@@ -107,6 +109,7 @@ const FAQS = [
 
 const Enums = {
   NAVBAR_ITEMS,
+  COMPANIES,
   FOOTER_OTHER_ITEMS,
   SERVICES,
   ABOUT_US_FIGURES,
