@@ -2,6 +2,7 @@
 import { usePathname } from "next/navigation";
 import { ENUMS } from "@/utils";
 import styles from "./footer.module.css";
+import Link from "next/link";
 
 export const FooterNavbarItems = () => {
   const currentPath = usePathname();
@@ -10,12 +11,13 @@ export const FooterNavbarItems = () => {
     <section className={styles.footerNavListContainer}>
       <ul>
         {ENUMS.NAVBAR_ITEMS.map(({ name, link }) => (
-          <li
-            key={name}
-            className={`${styles.footerNavList} ${link === currentPath ? styles.footerNavListActive : ""}`}
-          >
-            {name}
-          </li>
+          <Link key={name} href={link}>
+            <li
+              className={`${styles.footerNavList} ${link === currentPath ? styles.footerNavListActive : ""}`}
+            >
+              {name}
+            </li>
+          </Link>
         ))}
       </ul>
     </section>

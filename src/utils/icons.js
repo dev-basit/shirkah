@@ -24,6 +24,7 @@ import TICK_ORANGE from "../../public/images/tick-orange.svg";
 import TRANSPORT from "../../public/images/services/transport.svg";
 import TRUCK from "../../public/images/truck.svg";
 import SEARCH from "../../public/images/search.svg";
+import MENU from "../../public/images/menu.svg";
 
 const Icons = {
   CIRCLE_MINUS,
@@ -52,6 +53,7 @@ const Icons = {
   TRANSPORT,
   TRUCK,
   SEARCH,
+  MENU,
 };
 
 export default Icons;
