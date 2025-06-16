@@ -9,7 +9,14 @@ const NAVBAR_ITEMS = [
   { name: "EN", link: "/en" },
 ];
 
-const COMPANIES = [Icons.LOGO, Icons.LOGO, Icons.LOGO, Icons.LOGO, Icons.LOGO, Icons.LOGO];
+const COMPANIES = [
+  Icons.COMPANY1,
+  Icons.COMPANY2,
+  Icons.COMPANY3,
+  Icons.COMPANY4,
+  Icons.COMPANY5,
+  Icons.COMPANY6,
+];
 
 const FOOTER_OTHER_ITEMS = [{ name: "Terms & Conditions" }, { name: "Privacy" }, { name: "Cookies" }];
 

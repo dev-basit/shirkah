@@ -1,5 +1,11 @@
 import CIRCLE_MINUS from "../../public/images/minus-circle.svg";
 import CIRCLE_PLUS from "../../public/images/plus-circle.svg";
+import COMPANY1 from "../../public/images/companies/company1.svg";
+import COMPANY2 from "../../public/images/companies/company2.svg";
+import COMPANY3 from "../../public/images/companies/company3.svg";
+import COMPANY4 from "../../public/images/companies/company4.svg";
+import COMPANY5 from "../../public/images/companies/company5.svg";
+import COMPANY6 from "../../public/images/companies/company6.svg";
 import CONTAINER from "../../public/images/container.svg";
 import CONTAINER2 from "../../public/images/container-2.svg";
 import CONTAINER3 from "../../public/images/container-3.svg";
@@ -15,20 +21,26 @@ import LOGO from "../../public/images/logo.svg";
 import LOGO_WHITE from "../../public/images/logo-white.svg";
 import MANPOWER from "../../public/images/services/manpower.svg";
 import MAP from "../../public/images/map.svg";
+import MENU from "../../public/images/menu.svg";
 import OUTLINE from "../../public/images/outline.svg";
 import PACKING_BOX from "../../public/images/packing-box.svg";
+import SEARCH from "../../public/images/search.svg";
 import STAR from "../../public/images/star.svg";
 import STORAGE from "../../public/images/storage.svg";
 import STORAGE2 from "../../public/images/services/storage.svg";
 import TICK_ORANGE from "../../public/images/tick-orange.svg";
 import TRANSPORT from "../../public/images/services/transport.svg";
 import TRUCK from "../../public/images/truck.svg";
-import SEARCH from "../../public/images/search.svg";
-import MENU from "../../public/images/menu.svg";
 
 const Icons = {
   CIRCLE_MINUS,
   CIRCLE_PLUS,
+  COMPANY1,
+  COMPANY2,
+  COMPANY3,
+  COMPANY4,
+  COMPANY5,
+  COMPANY6,
   CONTAINER,
   CONTAINER2,
   CONTAINER3,
@@ -44,16 +56,16 @@ const Icons = {
   LOGO,
   MANPOWER,
   MAP,
+  MENU,
   OUTLINE,
   PACKING_BOX,
+  SEARCH,
   STAR,
   STORAGE,
   STORAGE2,
   TICK_ORANGE,
   TRANSPORT,
   TRUCK,
-  SEARCH,
-  MENU,
 };
 
 export default Icons;
