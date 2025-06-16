@@ -16,7 +16,7 @@ const steps = [
 
 export const TrackOrder = () => {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} data-aos="zoom-in-up">
       <h4>Enter Your Tracking ID</h4>
       <div className={styles.searchBarContainer}>
         <div className={styles.searchBar}>

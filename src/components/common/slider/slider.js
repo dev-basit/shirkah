@@ -14,6 +14,15 @@ const settings = {
   speed: 3000,
   autoplaySpeed: 100,
   cssEase: "linear",
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+      },
+    },
+  ],
 };
 
 const Sliderr = () => {

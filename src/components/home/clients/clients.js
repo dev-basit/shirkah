@@ -16,7 +16,7 @@ export const Clients = () => {
         </div>
         <div className={styles.clientContainer}>
           {ENUMS.CLIENTS_REVIEWS.map((client) => (
-            <div className={styles.clientItem} key={client.name}>
+            <div className={styles.clientItem} key={client.name} data-aos="zoom-in-up">
               <div className={styles.clientIconsContainer}>
                 {Array.from({ length: 5 }).map((item, index) => (
                   <div className={styles.clientIcon} key={index}>

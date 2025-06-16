@@ -17,7 +17,7 @@ export const Services = () => {
       </div>
       <div className={styles.serviceTypesContainer}>
         {ENUMS.SERVICES.map((service) => (
-          <div className={styles.serviceType} key={service.name}>
+          <div className={styles.serviceType} key={service.name} data-aos="zoom-in-up">
             <div className={styles.serviceIcon}>
               <Image
                 width={30}
