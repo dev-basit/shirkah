@@ -19,7 +19,7 @@ const settings = {
       breakpoint: 768,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2,
+        slidesToScroll: 1,
       },
     },
   ],
@@ -30,12 +30,14 @@ const Sliderr = () => {
     <div className={styles.sliders}>
       <Slider {...settings}>
         {ENUMS.COMPANIES.map((item, index) => (
-          <div key={index} className={styles.sliderImage}>
+          <div key={index} className={styles.sliderImageContainer}>
             <Image
               src={item}
               alt="Home-Logo--Image"
               // width={120}
               // height={120}
+              fill
+              className={styles.sliderImage}
             />
           </div>
         ))}

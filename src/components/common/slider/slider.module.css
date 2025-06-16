@@ -3,11 +3,28 @@
   margin: 10rem auto;
 
   @media screen and (max-width: 768px) {
-    margin: 5rem auto;
+    margin: 4rem auto;
+    margin-bottom: 13rem;
+  }
+}
+
+.sliderImageContainer {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+  padding-right: 4rem;
+
+  @media screen and (max-width: 768px) {
+    width: 5rem;
+    height: 5rem;
   }
 }
 
 .sliderImage {
-  width: 12rem;
-  height: 12rem;
+  object-fit: contain;
+  padding: 0 5rem;
+
+  @media screen and (max-width: 768px) {
+    padding: 0 2rem;
+  }
 }
