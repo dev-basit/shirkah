@@ -30,14 +30,12 @@ const Sliderr = () => {
     <div className={styles.sliders}>
       <Slider {...settings}>
         {ENUMS.COMPANIES.map((item, index) => (
-          <div key={index}>
+          <div key={index} className={styles.sliderImage}>
             <Image
               src={item}
               alt="Home-Logo--Image"
-              width={120}
-              height={120}
-              objectFit="cover"
-              // style={{ opacity: "0.5" }}
+              // width={120}
+              // height={120}
             />
           </div>
         ))}
